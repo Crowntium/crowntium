@@ -1,0 +1,6 @@
+usr/local/bin/crt-qt usr/bin
+share/pixmaps/crt32.xpm usr/share/pixmaps
+share/pixmaps/crt16.xpm usr/share/pixmaps
+share/pixmaps/crt128.png usr/share/pixmaps
+debian/crt-qt.desktop usr/share/applications
+debian/crt-qt.protocol usr/share/kde4/services/

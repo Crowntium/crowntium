@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=0.17.6
+Name=Crowntium Core Testnet
+Comment=Connect to the Crowntium P2P Network Testnet
+Exec=crt-qt -testnet %u
+Terminal=false
+Type=Application
+Icon=crttestnet128
+MimeType=x-scheme-handler/crt;
+Categories=Network;
+StartupWMClass=Crowntium-qt-testnet
+Name[en_US]=crt-qt-testnet

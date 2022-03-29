@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=0.17.6
+Name=Crowntium Core
+Comment=Connect to the Crowntium P2P Network
+Exec=crt-qt %u
+Terminal=false
+Type=Application
+Icon=crt128
+MimeType=x-scheme-handler/crt;
+Categories=Network;
+StartupWMClass=Crowntium-qt
+Name[en_US]=crt-qt
