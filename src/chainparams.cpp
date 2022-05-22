@@ -108,10 +108,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
 
         // The best chain should have at least this much work.
-         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100470047"); // crt
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100470047"); // crt
 
         // By default assume that the signatures in ancestors of this block are valid.
-         consensus.defaultAssumeValid = uint256S("0x00002b8b63e8941b9c499a6371457b45ca063a94d0f7f2d0699588231b2c2a0e"); // 70
+        consensus.defaultAssumeValid = uint256S("0x0000fc8f9b9e4f39c8760d2d28964cbfe6369d98e9e67e90083ae3e4f6e4d96c"); // 70
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -122,7 +122,7 @@ public:
         pchMessageStart[1] = 0xcf;
         pchMessageStart[2] = 0xa6;
         pchMessageStart[3] = 0xd3;
-        nDefaultPort = 3888;
+        nDefaultPort = 3757;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 14;
         m_assumed_chain_state_size = 1;
@@ -163,6 +163,16 @@ public:
         checkpointData = {
             {
                 { 0, uint256S("00000000f697346e48bdb04fc2874198dcc020ac61f474be8ae7f9aacd58b1df")},
+                { 70, uint256S("0000fc8f9b9e4f39c8760d2d28964cbfe6369d98e9e67e90083ae3e4f6e4d96c")},
+                { 160, uint256S("000095fb4acb634af7a400ddf46707db629bc62732d1ab99007161240e08f8d4")},
+                { 310, uint256S("00000cf5de2b488bf80ab8d7768d9f533a8de8aea0c9df30f4e129ca282ec378")},
+                { 350, uint256S("000097ea242b769a1baff3fd3578b7fa86a6fe61d0691f9fdd7e62f499a2acfa")},
+                { 400, uint256S("000051a6ac9aeca19c54950266259ac0ba8afbff643ce4ebd676a2f36f96b536")},
+                { 450, uint256S("000031a0f285f7a008608a14322d9bf4deb3546e97f72e4cfcf9745b06a56ea8")},
+                { 500, uint256S("0000d5aa457931f55a7c86e4cd13a602b8d7488293f5c8846f8a5a6ca2fa9090")},
+                { 550, uint256S("0000c6337b516ad76b2265956333d3011b4ce73487e8d56ea253d6a1a7470e0f")},
+                { 600, uint256S("0000dff54b6bd92365446caf38806bbb431f1c4eb935027bf2ef38f9ebc9285f")},     
+                
                
                 
             }
@@ -170,7 +180,7 @@ public:
 
         chainTxData = ChainTxData{
             // Data as of block 87ee4ec601b335d411e01378936e21044b1a47a3d989feaaaed0e8eaa2929e4b (height 1407838)
-            1643472687, // * UNIX timestamp of last known number of transactions
+            1653093641, // * UNIX timestamp of last known number of transactions
             0, // * total number of transactions between genesis and that timestamp
             //   (the tx=... number in the SetBestChain debug.log lines)
             0.0842613440826197 // * estimated number of transactions per second after that timestamp
@@ -251,7 +261,7 @@ public:
         pchMessageStart[1] = 0x22;
         pchMessageStart[2] = 0x15;
         pchMessageStart[3] = 0x06;
-        nDefaultPort = 13888;
+        nDefaultPort = 13757;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 6;
         m_assumed_chain_state_size = 1;
@@ -371,7 +381,7 @@ public:
         pchMessageStart[1] = 0xdd;
         pchMessageStart[2] = 0xc6;
         pchMessageStart[3] = 0xe1;
-        nDefaultPort = 23888;
+        nDefaultPort = 23757;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 0;
         m_assumed_chain_state_size = 0;

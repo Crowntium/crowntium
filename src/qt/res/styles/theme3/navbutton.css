@@ -9,15 +9,15 @@ QToolButton {
     padding: 10px;
 }
 QToolButton:checked {
-    border-right: 3px solid #006daf;
+    border-right: 3px solid #98700b;
 }
 QToolButton:pressed, QToolButton:hover:pressed, QToolButton:checked {
     color: #ffffff;
-    background: #0088d0;
+    background: #a57a0e;
 }
 QToolButton:hover:!checked {
     color: #ffffff;
-    background: #58a7e6;
+    background: #f1be3b;
 }
 QToolButton:disabled {
     color: rgba(255, 255, 255, 20%);

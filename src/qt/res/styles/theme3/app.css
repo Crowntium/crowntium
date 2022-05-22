@@ -8,7 +8,7 @@ QWidget{
 Main Window CSS
 --------------------------------------------*/
 QMainWindow{
-    background-color: #4f9fde;
+    background-color: #040404;
     border: 0px solid transparent;
     background-image: url(":/styles/theme3/app-icons/bg");
     background-position: bottom left;
@@ -67,7 +67,7 @@ QLabel#labelGeneral,
 #labelNetwork,
 #labelBlockChain,
 #labelMempoolTitle{
-    color: #049ee8;
+    color: #cc9814;
 }
 .QWidget#widget_header{
     background-color: #e4ebf5;
@@ -80,7 +80,7 @@ NavigationBar #labelLogo{
 }
 NavigationBar #hLineLogo,
 NavigationBar #hLineStatus{
-    border-top: 1px solid #61a9e1;
+    border-top: 1px solid #f7c23b;
 }
 /*-------------------------------------------- 
 Line Edit CSS
@@ -235,8 +235,8 @@ QSlider::add-page:horizontal {
 QSlider::sub-page:horizontal {
     margin: 9px -9px;
     border: none;
-    background: #57b2d5;
-    border-left: 1px solid #498ea9;
+    background: #f0bd3c;
+    border-left: 1px solid #edc359;
 }
 QSlider::add-page:horizontal:disabled {
     background: rgba(215, 215, 215, 40%);
@@ -492,7 +492,7 @@ QTableView::item{
 }
 QTableView::item:selected{
     qproperty-showGrid: false;
-    background: #26a1e3;
+    background: #bc8c12;
     color: #ffffff;
 }
 QHeaderView::disabled{
@@ -518,7 +518,7 @@ QTextEdit {
     border: 1px solid #d5dde9;
     border-radius: 14px;
     background-color: #ffffff;
-    color: #000000;
+    color: #eabc24;
     padding-left: 5px;
 }
 QTextEdit::hover:!read-only{
@@ -538,7 +538,7 @@ QPlainTextEdit {
     border: 1px solid #d5dde9;
     border-radius: 14px;
     background-color: #ffffff;
-    color: #000000;
+    color: #eabc24;
     padding-left: 5px;
 }
 QPlainTextEdit::hover:!read-only{
@@ -573,7 +573,7 @@ QStatusBar QLabel::disabled{
 UnitDisplayStatusBarControl {
     color: #ffffff; 
     background: transparent;
-    border: 1px solid #73bdec;
+    border: 1px solid #d4b25a;
     border-radius: 12px;
     font: 16px;
     padding: 0px;
@@ -601,12 +601,12 @@ Progress Bar CSS
 QProgressBar {
     background-color: #f2f7fd;
     font: 10pt;
-    color: #94ccf2;
+    color: #eac76d;
     border-radius: 0px;
     text-align: center;
 }
 QProgressBar::chunk {
-    background-color: #26a1e3;
+    background-color: #bc8c12;
     border-radius: 0px;
 }
 QProgressBar::disabled {
@@ -662,7 +662,7 @@ QMenuBar::item {
 }
 QMenuBar::item:selected {
     border: none;
-    color: #26a1e3;
+    color: #bc8c12;
 }
 QMenuBar::item:disabled {
     color: rgba(107, 128, 175, 20%);
@@ -818,7 +818,7 @@ QBalloonTip QPushButton::disabled {
 Push Button CSS
 --------------------------------------------*/
 QPushButton {
-    color: #26a1e3; 
+    color: #bc8c12; 
     background: transparent;
     border: 1px solid #d5dde9;
     border-radius: 14px;
@@ -830,7 +830,7 @@ QPushButton:hover{
     border: 1px solid #cbd5e1;
 }
 QPushButton:pressed {
-    background: #1498df;
+    background: #c08d0d;
     color: #ffffff;
 }
 QPushButton::disabled {
@@ -872,7 +872,7 @@ QToolButton {
 	border: none;
 }
 QToolButton::hover{
-	background-color: rgba(73, 88, 122, 20%);
+	background-color: #687aa8;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -903,7 +903,7 @@ QCalendarWidget QWidget{
     border-radius: 0px;
 }
 #qt_calendar_navigationbar{
-    background: #2E9AD0;
+    background: #fabb1c;
 }
 QCalendarWidget QAbstractSpinBox {
     min-width: 0px;
@@ -941,7 +941,7 @@ Modal Overlay CSS
     height: 9px;
 }
 #ModalOverlay QProgressBar::chunk {
-    background-color: #26a1e3;
+    background-color: #bc8c12;
     border-radius: 4px;
 }
 #ModalOverlay QLabel { 
@@ -1005,7 +1005,7 @@ Stake Page Widget CSS
     border-radius: 4px;
 }
 #frameStakeInfo #labelAssets{
-    color: #000000;
+    color: #eabc24;
     font: 17pt;
 }
 #frameStakeInfo #labelHeight,
@@ -1023,7 +1023,7 @@ Overview Page Widget CSS
 --------------------------------------------*/
 #widgetWallet #widgetTotal QLabel,
 #widgetWatch #widgetWatchTotal QLabel{
-    color: #000000;
+    color: #eabc24;
     font: 23pt;
 }
 #widgetPending #vLine,
@@ -1056,13 +1056,13 @@ Overview Page Widget CSS
     padding: 6px;
     min-width: 8em;
     border-radius: 18px;
-    border: 1px solid #4f9fde;
+    border: 1px solid #a97c0b;
 }
 /*--------------------------------------------
 Token Page Widget CSS
 --------------------------------------------*/
 #labelTokenBalance{
-    color: #000000;
+    color: #eabc24;
 }
 #widgetQRFrame{
     background-color: #ffffff;
@@ -1092,7 +1092,7 @@ TokenItemWidget #tokenName{
     font: 13pt;
 }
 TokenItemWidget #tokenBalance{
-    color: #000000;
+    color: #eabc24;
     font: 13pt;
 }
 TokenItemWidget #senderAddress{
@@ -1100,7 +1100,7 @@ TokenItemWidget #senderAddress{
     font: 10pt;
 }
 TokenItemWidget #tokenLogo{
-    background-color: #a1daff;
+    background-color: #d5b971;
     border-radius: 20px;
 }
 DelegationListWidget{
@@ -1111,7 +1111,7 @@ DelegationItemWidget #labelFee{
     font: 13pt;
 }
 DelegationItemWidget #labelStaker{
-    color: #000000;
+    color: #eabc24;
     font: 13pt;
 }
 DelegationItemWidget #labelAddress{
@@ -1119,7 +1119,7 @@ DelegationItemWidget #labelAddress{
     font: 10pt;
 }
 DelegationItemWidget #delegationLogo{
-    background-color: #a1daff;
+    background-color: #d5b971;
     border-radius: 20px;
 }
 SuperStakerListWidget{
@@ -1130,7 +1130,7 @@ SuperStakerItemWidget #labelFee{
     font: 13pt;
 }
 SuperStakerItemWidget #labelStaker{
-    color: #000000;
+    color: #eabc24;
     font: 13pt;
 }
 SuperStakerItemWidget #labelAddress{
@@ -1138,7 +1138,7 @@ SuperStakerItemWidget #labelAddress{
     font: 10pt;
 }
 SuperStakerItemWidget #superStakerLogo{
-    background-color: #a1daff;
+    background-color: #d5b971;
     border-radius: 20px;
 }
 SuperStakerItemWidget #buttonDelegations{
@@ -1156,7 +1156,7 @@ QFrame #frameStakerConfig{
 Send Coins Dialog CSS
 --------------------------------------------*/
 SendCoinsDialog #labelBalance{
-    color: #000000;
+    color: #eabc24;
 }
 SendCoinsDialog QScrollArea{
     border: 1px solid #d5dde9;
@@ -1191,7 +1191,7 @@ Delegate and Staker Page Widget CSS
     color: #b5bfd7;
 }
 #widgetStakingAssets #labelAssets{
-    color: #000000;
+    color: #eabc24;
     font: 13pt;
 }
 #vLineAssets{

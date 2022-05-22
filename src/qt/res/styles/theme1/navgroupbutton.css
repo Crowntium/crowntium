@@ -10,7 +10,7 @@ QToolButton {
 }
 QToolButton:pressed, QToolButton:hover:pressed, QToolButton:checked {
     color: rgba(255, 255, 255, 85%);
-    background: #009ee5;
+    background: #e0a100;
     padding: 3px 20px 5px 10px;
     background-image: url(":/styles/theme1/app-icons/toolbutton_down_arrow");
     background-position: center right;

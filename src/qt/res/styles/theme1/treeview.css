@@ -2,7 +2,7 @@
 Tree view CSS
 --------------------------------------------*/
 QTreeWidget {
-	background-color:rgba(0,0,0,0);
+	background-color:rgba(235, 178, 7, 0.851);
 	selection-background-color: #1c536c;
 	show-decoration-selected:0;
 }
